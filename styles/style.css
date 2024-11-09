@@ -47,6 +47,11 @@
   z-index: 2;
 }
 
+.header__link {
+  color: #2f80ed;
+  text-decoration: none;
+}
+
 .header__main-illustration {
   position: absolute;
   right: 0;
@@ -111,6 +116,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 100px;
 }
 
 .section-title {
@@ -164,6 +170,53 @@
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
+}
+
+.feynman {
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  min-height: 890px;
+  padding-top: 100px;
+  background-color: #f2f2f2;
+}
+
+.feynman__title {
+  margin: 0;
+  max-width: 648px;
+  margin-bottom: 70px;
+  text-align: center;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: 600;
+  z-index: 2;
+}
+
+.feynman__subtitle {
+  margin: 0;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  z-index: 2;
+}
+
+.feynman__link {
+  position: absolute;
+  top: 50%;
+  right: 48px;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  color: #2f80ed;
+  text-decoration: none;
+}
+
+.feynman__img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
 /* и элемента с модификатором вида ключ-значение */
